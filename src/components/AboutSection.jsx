@@ -28,10 +28,11 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.usercontent.google.com/download?id=1R1JtDgIran1m5dO85RTv6S7icFHN9CqN&export=download&authuser=0&confirm=t&uuid=2ee07c76-af84-43ae-985d-542e711054f0&at=AN8xHoqA4EmJ-7fqnaqTuGn3hKwQ:1757759240606"
+                href="/resume/Nur_Mohammad_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                download={"Nur_Mohammad_Resume.pdf"}
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
@@ -43,7 +44,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Web Development (Frontend)</h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
                     modern frameworks.

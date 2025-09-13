@@ -1,12 +1,11 @@
 import {
-
   Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
   Facebook,
-  Github
+  Github,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -35,12 +34,6 @@ export const ContactSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary"> Touch</span>
         </h2>
-
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
-        </p>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
@@ -93,7 +86,10 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center ">
-                <a href="https://www.linkedin.com/in/nur-muhammad-41b706239/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/nur-muhammad-41b706239/"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
                 <a href="https://github.com/Nur-Muhammad1" target="_blank">
@@ -136,7 +132,6 @@ export const ContactSection = () => {
                   htmlFor="email"
                   className="block text-sm font-medium mb-2"
                 >
-                  {" "}
                   Your Email
                 </label>
                 <input
@@ -154,7 +149,6 @@ export const ContactSection = () => {
                   htmlFor="message"
                   className="block text-sm font-medium mb-2"
                 >
-                  {" "}
                   Your Message
                 </label>
                 <textarea
