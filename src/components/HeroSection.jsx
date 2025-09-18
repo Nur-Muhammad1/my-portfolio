@@ -16,15 +16,15 @@ export const HeroSection = () => {
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Muhammad
+              Mohammad
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I’m starting my journey as a web developer with a focus on
-            front-end technologies. I enjoy creating websites that not only look
-            good but also work smoothly. Every project is a chance for me to
-            learn and improve.
+            I’m starting my journey as a web developer with a focus on front-end
+            technologies. I enjoy creating websites that not only look good but
+            also work smoothly. Every project is a chance for me to learn and
+            improve.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
