@@ -10,6 +10,15 @@ const projects = [
     demoUrl: "https://country-app-six-delta.vercel.app/",
     githubUrl: "https://github.com/Nur-Muhammad1/country-app",
   },
+  {
+    id: 2,
+    title: "Todo App",
+    description: "Simple todo app show list from form value and remove feature.",
+    image: "/projects/Todo-App.png",
+    tags: ["React", "JavaScript", "TailwindCSS", "HTML"],
+    demoUrl: "https://react-todo-app-nur.vercel.app/",
+    githubUrl: "https://github.com/Nur-Muhammad1/react-project-1",
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -25,7 +34,7 @@ export const ProjectsSection = () => {
           Here are some of my recent projects.
         </p>
 
-        <div className="grid grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
